@@ -1,6 +1,6 @@
 {
   "name": "@danoph/super-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A multipart s3 file uploader",
   "exports": {
     ".": {
