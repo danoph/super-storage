@@ -2,17 +2,7 @@ import 'mocha';
 import { assert } from 'chai';
 
 import { helloWorld, goodBye } from '../src/index';
-import npmPackage from '../src/index';
-
-describe('NPM Package', () => {
-  it('should be an object', () => {
-    assert.isObject(npmPackage);
-  });
-
-  it('should have a helloWorld property', () => {
-    assert.property(npmPackage, 'helloWorld');
-  });
-});
+//import Upload from '../src/index';
 
 describe('Hello World Function', () => {
   it('should be a function', () => {

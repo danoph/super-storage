@@ -1,3 +1,5 @@
+import Upload from './lib/Upload';
+
 export function helloWorld() {
   const message = 'Hello World from my example modern npm package!';
   return message;
@@ -8,7 +10,5 @@ export function goodBye() {
   return message;
 }
 
-export default {
-  helloWorld,
-  goodBye,
-};
+export default Upload;
+

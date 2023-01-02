@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
+    "lib": ["ES6", "DOM"],
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "downlevelIteration": true,
     "checkJs": true,
     "allowJs": true,
     "declaration": true,
     "declarationMap": true,
+    "noImplicitAny": false,
     "allowSyntheticDefaultImports": true
   },
-  "files": ["../src/index.ts"]
+  "files": ["./src/index.ts"]
 }
